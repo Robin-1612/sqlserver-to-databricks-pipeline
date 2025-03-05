@@ -1,0 +1,7 @@
+# config/config.yaml
+sql_server:
+  host: "YOUR_SQL_SERVER_HOST"       # e.g., "127.0.0.1" or an actual domain name
+  port: 1433                         # Default SQL Server port
+  database: "YOUR_DATABASE_NAME"
+  username: "YOUR_USERNAME"
+  password: "YOUR_PASSWORD"         # For production, consider using secret management rather than storing this here
